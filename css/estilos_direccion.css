@@ -1,0 +1,19 @@
+.menu_vertical{
+    height: 600px;    
+}
+
+.cuerpo{
+    margin-left: 310px;
+    height: 600px;
+}
+
+.cuerpo a{
+    text-decoration: none;
+}
+
+.cuerpo li{
+    margin-left: 30px;
+    font-family: arial;
+    color: #605c5c;
+    padding: 5px;
+}

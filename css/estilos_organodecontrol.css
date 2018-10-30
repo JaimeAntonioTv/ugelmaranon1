@@ -1,0 +1,17 @@
+.menu_vertical{
+    height: 1400px;
+}
+.cuerpo{
+    margin-left: 310px;
+    height: 1400px;
+}
+
+.cuerpo li{
+    margin-left: 30px;
+    font-family: arial;
+    color: #605c5c;
+}
+
+.cuerpo a{
+    text-decoration: none;
+}

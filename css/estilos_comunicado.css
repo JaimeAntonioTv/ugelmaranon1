@@ -1,0 +1,29 @@
+.cuerpo{
+    height: 300px;
+    font-size: 14px;
+}
+
+.cuerpo a{
+    text-decoration: none;
+    color: #024959;
+}
+
+.cuerpo a:hover{
+    text-decoration: underline;
+}
+
+.descarga_archivo{
+    background: #e1f8d4;
+    padding: 20px;
+    font-family: arial;
+}
+
+.descarga_archivo ul{
+    list-style: none;
+    color: #717470;
+}
+
+.descarga_archivo ul li{
+    display: inline-block;
+    margin-right: 25px;
+}

@@ -1,0 +1,18 @@
+#cuerpo_mayor{
+    font-family: arial;
+    color: #605c5c;
+    font-size: 14px;
+}
+
+#cuerpo_mayor a{
+    text-decoration: none;
+}
+
+.tabla_convocatorias{
+    text-align: center;
+}
+
+.tabla_convocatorias thead{
+    background: #024959;
+    color: #FFFFFA;
+}

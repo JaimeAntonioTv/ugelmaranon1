@@ -1,0 +1,20 @@
+#cuerpo_mayor{
+    font-family: arial;
+    color: #605c5c;
+}
+
+#cuerpo_mayor a{
+    text-decoration: none;
+}
+
+.img_noticia{
+    width: 100%;
+}
+
+.cuerpo_noticia h2,p{
+    padding: 10px;
+}
+
+.img_duracion{
+    width: 35%;
+}

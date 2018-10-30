@@ -1,0 +1,17 @@
+.menu_vertical{
+    height: 2200px;    
+}
+
+.cuerpo{
+    height: 2200px;
+}
+.cuerpo a{
+    text-decoration: none;
+}
+.cuerpo p, h1, h2, ol{
+    margin-left: 310px;
+}
+
+.cuerpo ol li{
+    margin-left: 30px; 
+}
