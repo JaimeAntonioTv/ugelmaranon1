@@ -15,18 +15,38 @@
 	<script src="js/jquery.flexslider.js"></script>
 <!--	<script src="menu.js"></script>-->
 	<script type="text/javascript" charset="utf-8">
-
-  $(window).load(function() {
-    $('.flexslider').flexslider({
-    	touch: true,
-    	pauseOnAction: false,
-    	pauseOnHover: false,
-    });
-  });
-</script>
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+            touch: true,
+            pauseOnAction: false,
+            pauseOnHover: false,
+        });
+      });
+    </script>
+    <script>
+        $(window).load(function(){
+            $("#loadPage").delay(500).fadeOut("slow");            
+        });
+    </script>
+    <style type="text/css">
+        #loadPage{
+            display: block;
+            background: #FFF;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top 0;
+            left: 0;
+            z-index: 1000;
+        }
+        #loadPage{
+            display: block;
+        }
+    </style>
 
 </head>
 <body>
+	<span id="loadPage">Cargando...</span>
 	<header>
 		<a href="index.html"><img class="logo" src="imagenes/Logo/Logo.jpg"></a>
 		
