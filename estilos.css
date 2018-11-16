@@ -390,17 +390,47 @@ button{
 }
 
 .footer-inf{
+    padding: 20px;
     height: 150px;
-    background: darkblue;
-    color:#fff;
+    background: #444543;
+    color:#c2c3c1;
     float: inherit;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.inf-ugel{
+    margin-left: 80px;
+    float: left;
+}
+
+.inf-ugel ul li{
+    padding: 4px;
+}
+
+.inf-funcionarios{
+    float: right;
+    font-size: 13px;
+    text-align: right;
+    margin-right: 80px;
+}
+
+.inf-funcionarios ul li{
+    list-style: none;
+    padding: 4px;
 }
 
 .footer-copyright{
     height: 50px;
-    background: #4e5052;
-    color:;
-    float: inherit
+    background: #2a2b2a;
+    color:#c2c3c1;
+    padding: 20px;
+    font-family: arial;
+    font-size: 13px;
+}
+
+.footer-copyright p{
+    margin-left: 80px;    
 }
 
 @media screen and (max-width:800px) {
